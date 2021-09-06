@@ -6,7 +6,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'babel/new-cap': 'off',
     'require-await': 'warn',
-    'import/no-unresolved': 'error',
+    'import/no-unresolved': 'off',
   },
   overrides: [
     {

@@ -1,11 +1,21 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "*": ["test/*", "src/*"]
-    },
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
     "strictNullChecks": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "noResolve": false,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "sourceMap": true
   },
-  "include": ["src", "test"]
+  "include": ["src", "test"],
+  "exclude": ["node_modules", "lib"]
 }
