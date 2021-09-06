@@ -3,7 +3,8 @@
     "baseUrl": "./",
     "paths": {
       "*": ["test/*", "src/*"]
-    }
+    },
+    "strictNullChecks": true
   },
   "include": ["src", "test"]
 }
