@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  preset: 'ts-jest',
   roots: [path.join(__dirname, '../src')],
   rootDir: path.join(__dirname, '..'),
   testEnvironment: 'node',
