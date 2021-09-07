@@ -1,7 +1,7 @@
 {
-  "name": "nats-transport",
+  "name": "@bonnak/mic",
   "version": "0.0.1",
-  "description": "Nats-implemented transportation",
+  "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
