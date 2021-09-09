@@ -22,7 +22,7 @@
     "*.+(js|ts)": [
       "eslint"
     ],
-    "*.+(js|json|ts)": [
+    "*.+(js|json|ts|css|scss|md|mdx|html)": [
       "prettier --write"
     ]
   },
